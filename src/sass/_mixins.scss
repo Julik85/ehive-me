@@ -1,3 +1,4 @@
+
 @mixin push--auto() {
     margin-left: auto;
     margin-right: auto;
@@ -20,6 +21,7 @@
     @media screen and (min-width: 1200px) {
         @content;
     }
+
 }
 
 @mixin retina {
@@ -29,4 +31,5 @@
     (min-resolution: 2dppx) {
         @content;
     }
+
 }
