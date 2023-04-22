@@ -1,0 +1,76 @@
+.section-hero{
+    padding-left: 165px;
+    padding-right: 170px;
+    padding-top: 129px;
+}
+
+.hero {
+    
+    display: flex;
+    max-width: 1440px;
+    flex-wrap: nowrap;
+    height: 596px;
+   
+}
+
+.hero-wrapp {
+    width: 500px;
+    padding-left: 0;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+
+.hero-title{
+font-family: nexascript_regular;
+font-size: 96;
+line-height: 1.27;
+color: #F8AC1C;
+// text-transform: capitalize;
+margin-bottom: 6px;
+}
+
+
+.hero-description {     
+    font-family: 'Poppins';
+    font-style: normal;
+    font-size: 36px;
+    line-height: 1.5;
+    color: #FFFFFF;
+}
+
+.hero-image_wrapp {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-right: 106px;
+    width: 616px;
+
+}
+
+.bee-hero {
+    position: absolute;
+    top: 17px;
+    right: 228px;
+    z-index: 10;
+    display: flex;
+}
+
+.honeycombs-hero {
+    position: absolute;
+    top: 155px;
+    right: 137px;
+}
+
+.jar-of-honey-hero {
+    position: absolute;
+    top: 0;
+    right: -64px;
+}
+
+.flowers-hero {
+    position: absolute;
+    top: 365px;
+    right: 135px;
+    
+}
