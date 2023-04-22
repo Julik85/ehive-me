@@ -10,33 +10,47 @@
     max-width: 1440px;
     flex-wrap: nowrap;
     height: 596px;
+    flex-direction: column;
+    @include desktop {
+       flex-direction: row;
+       height: 596px;
+    }
    
 }
 
 .hero-wrapp {
-    width: 500px;
+    max-width: 500px;
     padding-left: 0;
-    margin-top: auto;
-    margin-bottom: auto;
+   
+    @include desktop {
+        margin-top: auto;
+        margin-bottom: auto;
+    }
 }
 
 
 .hero-title{
-font-family: nexascript_regular;
-font-size: 96;
-line-height: 1.27;
-color: #F8AC1C;
-// text-transform: capitalize;
-margin-bottom: 6px;
+    font-family: nexascript_regular;
+    font-size: 55px;
+    line-height: 1.27;
+    color: #F8AC1C;
+    // text-transform: capitalize;
+    margin-bottom: 6px;
+    @include desktop {
+        font-size: 96px;
+    }
 }
 
 
 .hero-description {     
     font-family: 'Poppins';
     font-style: normal;
-    font-size: 36px;
+    font-size: 24px;
     line-height: 1.5;
     color: #FFFFFF;
+    @include desktop {
+        font-size: 36px;
+    }
 }
 
 .hero-image_wrapp {
@@ -44,33 +58,50 @@ margin-bottom: 6px;
     margin-left: auto;
     margin-right: auto;
     margin-right: 106px;
-    width: 616px;
+    width: 320px;
+    @include desktop {
+        width: 616px;
+    }
 
 }
 
 .bee-hero {
     position: absolute;
-    top: 17px;
-    right: 228px;
-    z-index: 10;
-    display: flex;
+    top: 5px;    
+    left: 110px;
+    @include desktop {
+        left: 250px;
+        
+    }
 }
 
 .honeycombs-hero {
     position: absolute;
-    top: 155px;
-    right: 137px;
+    top: 170px;
+    left: -20;
+    @include desktop {
+        left: 100px;
+        top: 155px;
+    }
 }
 
 .jar-of-honey-hero {
     position: absolute;
     top: 0;
-    right: -64px;
+    left: 55px;
+    @include desktop {
+        left: 180px;
+        
+    }
 }
 
 .flowers-hero {
     position: absolute;
-    top: 365px;
-    right: 135px;
+    top: 270px;
+    left: -50px;
+    @include desktop {
+        left: -10px;
+        top: 390px;
+    }
     
 }
