@@ -2,7 +2,7 @@
     padding-top: 47px;
     padding-bottom: 135px;
     @include desktop{
-        padding-top: 0;
+        padding-top: 101px;
         padding-bottom: 101px;
     }
 }
@@ -176,7 +176,7 @@ margin: 0 auto;
     position: absolute;
     top: 44%;
     left: 49%;
-    transform: translate(-51%, -127%);
+    transform: translate(-50%, -44%);
 }
 
 .desk-box{
@@ -193,19 +193,19 @@ main{
     position: absolute;
     right: 0;
     top: 109%;
-    transform: translateY(-313%);
+    transform: translateY(-320%);
 }
 
 .honey-bee-1 {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(162%, -291%);
+    transform: translate(162%, -66%);
 }
 
 .honey-bee-2 {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-222%, -578%);
+    transform: translate(-222%, -314%);
 }
