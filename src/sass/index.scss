@@ -1,9 +1,10 @@
 @import './common';
+
 @import './reset';
 @import './mixins';
 @import './container';
 @import './hidden';
-// @import './header';
+@import './header';
 @import './hero';
 @import './about';
 // @import './why-hive';
@@ -11,7 +12,12 @@
 // @import './products-and-cost';
 // @import './footer';
 
-@import './example';
+@import './mixins';
+@import './hidden';
+
+@import './conatiner';
+@import './header';
+
 @font-face {
     font-family:lato-medium ;
     src: url('../fonts/lato-medium.ttf');
