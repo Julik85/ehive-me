@@ -1,5 +1,5 @@
 $('.autoplay-why-us').slick({
-  dots: true,
+  dots: false,
   slidesToShow: 1,
   slidesToScroll: 1,
   arrows: false,
@@ -10,10 +10,10 @@ $('.autoplay-why-us').slick({
 // section gallery
 
 $('.autoplay-gallery').slick({
+  dots: true,
   slidesToShow: 1,
   slidesToScroll: 1,
-  fade: true,
   arrows: false,
-  autoplay: true,
-  autoplaySpeed: 6000,
+  // autoplay: true,
+  // autoplaySpeed: 5000,
 });
