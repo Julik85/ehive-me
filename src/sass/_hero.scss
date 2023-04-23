@@ -5,8 +5,7 @@
 // }
 
 .hero {
-    
-    display: flex;
+    display: block;
     max-width: 1440px;
     flex-wrap: nowrap;
     height: 596px;
@@ -14,18 +13,19 @@
     @include desktop {
        flex-direction: row;
        height: 596px;
+       display: flex;
     }
    
 }
 
 .hero-wrapp {
-    max-width: 500px;
+    max-width: 320px;
     padding-left: 0;
-   
-    @include desktop {
-        margin-top: auto;
-        margin-bottom: auto;
-    }
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+      
 }
 
 
@@ -57,10 +57,10 @@
     position: relative;
     margin-left: auto;
     margin-right: auto;
-    margin-right: 106px;
+    margin-right: auto;
     width: 320px;
     @include desktop {
-        width: 616px;
+        // width: 616px;
     }
 
 }
@@ -100,8 +100,8 @@
     top: 270px;
     left: -50px;
     @include desktop {
-        left: -10px;
-        top: 390px;
+        left: 25px;
+        top: 250px;
     }
     
 }
