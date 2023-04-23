@@ -66,6 +66,10 @@
     @include desktop {
         display: none;
     }
+
+    &:hover .mobile-menu__icon, &:focus .mobile-menu__icon{
+        fill: #F8AC1C;
+    }
 }
 .mobile-menu__btn--close{
 top: 8px;
