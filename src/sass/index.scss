@@ -7,10 +7,18 @@
 @import './header';
 @import './hero';
 @import './about';
-@import './why-hive';
+<<<<<<< Updated upstream
+// @import './why-hive';
 // @import './about-production';
-@import './products-and-cost';
+// @import './products-and-cost';
 // @import './footer';
+=======
+@import './why-hive';
+@import './about-production';
+@import './products-and-cost';
+@import './footer';
+>>>>>>> Stashed changes
+
 
 @import './mixins';
 @import './hidden';
