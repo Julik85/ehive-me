@@ -1,3 +1,14 @@
+main {
+    position: relative;
+}
+
+.honey-spoon {
+    position: absolute;
+    right: 0;
+    top: 109%;
+    transform: translateY(-320%);
+}
+
 .why-hive {
     padding-top: 47px;
     padding-bottom: 135px;
@@ -8,7 +19,7 @@
 }
 
 .why-hive__title {
-    font-family: 'Nexa Script';
+    font-family: nexascript_regular;
     font-weight: 400;
     font-size: 36px;
     line-height: 1.1;
@@ -44,7 +55,7 @@
 }
 
 .gallery__descr {
-    font-family: 'Poppins';
+    font-family: poppins;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
@@ -141,6 +152,31 @@
 //     width: 290px;
 // }
 
+
+
+.desk-box{
+    position: relative;
+}
+.honey-bee-1 {
+    position: absolute;
+    top: 67%;
+    left: 50%;
+    transform: translate(162%, -66%);
+}
+.image {
+    position: absolute;
+    top: 51%;
+    left: 49%;
+    transform: translate(-50%, -44%);
+}
+
+.honey-bee-2 {
+    position: absolute;
+    top: 69%;
+    left: 50%;
+    transform: translate(-222%, -314%);
+}
+
 .top-item{
     margin: 0 auto;
     width: 290px;
@@ -172,40 +208,11 @@ margin: 0 auto;
     margin-top: 131px;
     
 }
-.image{
-    position: absolute;
-    top: 44%;
-    left: 49%;
-    transform: translate(-50%, -44%);
-}
+
 
 .desk-box{
     display: none;
     @include desktop {
             display: block;
         }
-}
-
-main{
-    position: relative;
-}
-.honey-spoon{
-    position: absolute;
-    right: 0;
-    top: 109%;
-    transform: translateY(-320%);
-}
-
-.honey-bee-1 {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(162%, -66%);
-}
-
-.honey-bee-2 {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-222%, -314%);
 }
