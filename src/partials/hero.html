@@ -8,16 +8,71 @@
             <p class="hero-description">Вкусно и полезно</p>
         </div>
         <div class="hero-image_wrapp">
-            <img src="./images/honeycombs-hero.png" 
-                alt="honeycombs" 
-                class="honeycombs-hero" 
-                width="327" height="228">
-            <img src="./images/jar-of-honey-hero.png"
-                alt="jar-of-honey" 
-                class="jar-of-honey-hero" 
-                width="454" height="625">
-            <img src="./images/flowers-hero.png" alt="flowers" class="flowers-hero">
-            <img src="./images/bee-hero.png" alt="" class="bee-hero" width="96" height="94">
+           <picture>
+                <source srcset="./images/honeycombs-hero.png"
+                type="image"
+                media="(min-width: 1200px)"/>
+
+                <source srcset="./images/honeycombs-hero-mobile.png"
+                type="image"
+                media="(max-width: 1199px)"/>
+
+                <img src="./images/honeycombs-hero.png" 
+                    alt="honeycombs" 
+                    class="honeycombs-hero" 
+                    >
+           </picture>
+            <picture>
+
+                <source srcset="./images/jar-of-honey-hero.png"
+                type="image"
+                media="(min-width: 1200px)"/>
+
+                <source srcset="./images/jar-of-honey-hero-mobile.png"
+                type="image"
+                media="(max-width: 1199px)"/>
+
+                <img src="./images/jar-of-honey-hero.png"
+                    alt="jar-of-honey" 
+                    class="jar-of-honey-hero" 
+                    
+                    >
+            </picture>
+            <picture>
+
+                <source srcset="./images/flowers-hero.png"
+                type="image"
+                media="(min-width: 1200px)"/>
+
+                <source srcset="./images/flowers-hero-mobile.png"
+                type="image"
+                media="(max-width: 1199px)"/>
+
+                <img src="./images/flowers-hero.png" 
+                alt="flowers" 
+                class="flowers-hero"
+                
+                >
+            </picture>
+            <picture>
+
+                <source srcset="./images/bee-hero.png"
+                type="image"
+                media="(min-width: 1200px)"/>
+
+                <source srcset="./images/bee-hero-mobile.png"
+                type="image"
+                media="(max-width: 1199px)"/>
+
+                <img src="./images/bee-hero.png"
+                    alt="bee" 
+                    class="bee-hero" 
+                    width="96" height="94">
+            </picture>
         </div>
     </div>
 </section>
+
+<!-- width="454" height="625" -->
+<!-- width="327" height="228" -->
+<!-- width="96" height="94" -->
