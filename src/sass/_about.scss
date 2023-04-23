@@ -98,6 +98,9 @@ color: #3D2C23;
     // margin-left: auto;
     position: relative;
     height: 705px;
+     @include desktop {
+        width: 505px;
+    }
 }
 
 .hive-about-us{
